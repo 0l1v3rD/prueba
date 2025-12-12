@@ -1,0 +1,26 @@
+*{
+    color: white;
+}
+header{
+    justify-content: center;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:650px;
+}
+body{
+    background-image: url(../img/login.jpg);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:100px;
+    border:1px solid black;
+}
+form *{
+    color:black;
+}
